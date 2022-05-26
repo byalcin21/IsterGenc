@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "691792840684",
+    "project_id": "gencister",
+    "storage_bucket": "gencister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691792840684:android:01ee56220598eb686a22c9",
+        "android_client_info": {
+          "package_name": "com.zexly.istergenc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691792840684-joeh47b6a2fe262aufg0b3r9kgdfvqeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zexly.istergenc",
+            "certificate_hash": "9aedea98b26d3c667b2d3f2a0271609e05887efd"
+          }
+        },
+        {
+          "client_id": "691792840684-8bhicd8al9eea9hn10q1j82ghuin4v87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCipVC59lYCAk2FFIExxInKtsw4x-c02Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691792840684-8bhicd8al9eea9hn10q1j82ghuin4v87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

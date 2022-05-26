@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/drawable-anydpi/ic_action_sign.xml" value="0.3675" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/drawable/et_style.xml" value="0.3415" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/drawable/login_style.xml" value="0.3415" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/drawable/mybutton.xml" value="0.3675" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/activity_ana_sayfa.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/activity_my_profil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/activity_paylasim_yap.xml" value="0.33" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/fragment_login.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/fragment_sign_up_part1.xml" value="0.33" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/fragment_sign_up_part2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/layout/recycler_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ahmet/AndroidStudioProjects/IsterGenc/app/src/main/res/menu/secenekler_menusu.xml" value="0.365625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">İster Genç</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Sign Up 1 Fragment</string>
+    <string name="Loginuser_name_hint">Lütfen kullanıcı adınızı giriniz</string>
+    <string name="Loginpassword_hint">Lütfen şifrenizi giriniz</string>
+</resources>

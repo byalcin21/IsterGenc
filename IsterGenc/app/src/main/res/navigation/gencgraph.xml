@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gencgraph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/signUpPart1Fragment"
+        android:name="com.zexly.istergenc.view.SignUpPart1Fragment"
+        android:label="fragment_sign_up_part1"
+        tools:layout="@layout/fragment_sign_up_part1" >
+        <action
+            android:id="@+id/action_signUpPart1Fragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signUpPart1Fragment_to_signUpPart2Fragment"
+            app:destination="@id/signUpPart2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpPart2Fragment"
+        android:name="com.zexly.istergenc.view.SignUpPart2Fragment"
+        android:label="fragment_sign_up_part2"
+        tools:layout="@layout/fragment_sign_up_part2" >
+        <action
+            android:id="@+id/action_signUpPart2Fragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signUpPart2Fragment_to_signUpPart1Fragment2"
+            app:destination="@id/signUpPart1Fragment" />
+        <argument
+            android:name="tcKimlikNo"
+            app:argType="string"
+            android:defaultValue="00000000000" />
+        <argument
+            android:name="isim"
+            app:argType="string"
+            android:defaultValue="name" />
+        <argument
+            android:name="soyisim"
+            app:argType="string"
+            android:defaultValue="surname" />
+        <argument
+            android:name="telNo"
+            app:argType="string"
+            android:defaultValue="5000000000" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.zexly.istergenc.view.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_signUpPart1Fragment"
+            app:destination="@id/signUpPart1Fragment" />
+    </fragment>
+</navigation>

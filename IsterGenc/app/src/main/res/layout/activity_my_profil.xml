@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MyProfilActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:gravity="center"
+        android:text="Profilim"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_weight="0.08"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:labelVisibilityMode="labeled"
+        android:background="@drawable/et_style"
+        app:itemIconTint="@color/black"
+        android:id="@+id/bottomNavView"
+        app:menu="@menu/secenekler_menusu"
+
+        />
+
+</LinearLayout>

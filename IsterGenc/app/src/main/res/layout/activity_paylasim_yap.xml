@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.PaylasimYapActivity"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:background="@color/white">
+    <Button
+        android:id="@+id/shareButon"
+        android:backgroundTint="#143B9A"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Paylaş"
+        />
+
+
+    <EditText
+        android:id="@+id/talepDetay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:paddingStart="20dp"
+        android:layout_weight="5"
+        android:hint="Talep detayı"
+        android:inputType="text"
+        android:textColorHint="#88070707"
+        tools:ignore="RtlSymmetry" />
+
+
+    <Spinner
+        android:id="@+id/kurumSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0.8"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:id="@+id/cardViewID"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        app:cardCornerRadius="22dp">
+        <ImageView
+            android:id="@+id/imageViewGorselSec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3A3939"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/signIBId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="30dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_action_share_photo"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/et_style"
+        app:itemIconTint="@color/black"
+        android:id="@+id/bottomNavView"
+        app:menu="@menu/secenekler_menusu"
+        />
+</RelativeLayout>
